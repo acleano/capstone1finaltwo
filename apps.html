@@ -28,6 +28,9 @@
 	<!-- font awesome -->
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+	<!-- openJob script -->
+	<script	src="assets/js/openJob.js"></script>
+
 	<!-- my external css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -37,40 +40,41 @@
 	<!--start of navbar-->
 	<nav class="navbar navbar-expand-lg text-light navbar-light">
 		<div class="container">
-		    <a class="navbar-brand navbar-brand-mobile" href="home.html">
-	        	<img src="assets/images/logo.png" height="40" alt="Plug in Useful" class="logo">
-	   		</a>
-		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-		    	<span class="navbar-toggler-icon"></span>
-		    </button>
-		 	<div class="collapse navbar-collapse justify-content-center font-weight-bold" id="basicExampleNav">
-		    	<ul class="navbar-nav">
-		    	<!-- hidden in desktop mode, visible in mobile and tablet-->
-			     	<li class="nav-item">
-			      		<a class="nav-link home-nav-link" href="home.html">Home</a>
-			     	</li>
-		    	<!-- end -->
-		     		<li class="nav-item">
-		     			 <a class="nav-link" href="about.html">About</a>
-		     		</li>
-		     		<li class="nav-item">
-		      			<a class="nav-link active" href="apps.html">Apps</a>
-		     		</li>
+			<a class="navbar-brand navbar-brand-mobile" href="home.html">
+				<img src="assets/images/logo.png" height="40" alt="Plug in Useful" class="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-center font-weight-bold" id="basicExampleNav">
+				<ul class="navbar-nav">
+					<!-- hidden in desktop mode, visible in mobile and tablet-->
+					<li class="nav-item">
+						<a class="nav-link home-nav-link" href="home.html">Home</a>
+					</li>
+					<!-- end -->
+					<li class="nav-item">
+						<a class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="apps.html">Apps</a>
+					</li>
 				</ul>
 
-			    <!-- logo hidden in mobile and tablet -->
-			    <a class="navbar-brand px-lg-4 mr-0" href="home.html">
-			     	<img src="assets/images/logo.png" height="40" alt="Plug in Useful" class="logo">
-			    </a>
-			    <!-- end of logo -->
-			    <ul class="navbar-nav">
-				    <li class="nav-item">
-				    	<a class="nav-link" href="jobs.html">Jobs</a>
-				    </li>
-				    <li class="nav-item">
-				    	<a class="nav-link" href="contact.html">Contact Us</a>
-				    </li>
-			    </ul>
+				<!-- logo hidden in mobile and tablet -->
+				<a class="navbar-brand px-lg-4 mr-0" href="home.html">
+					<img src="assets/images/logo.png" height="40" alt="Plug in Useful" class="logo">
+				</a>
+				<!-- end of logo -->
+
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="jobs.html">Jobs</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact Us</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</nav>
@@ -92,31 +96,31 @@
     	<div class="row jobs-row mb-5">
 			<div class="mx-auto p-0 m-0">
 				<div class="tab-2 mb-4">		
-				  <button class="tablinks" onclick="openJob(event, 'SEO')">Plug in SEO</button>
-				  <button class="tablinks" onclick="openJob(event, 'Speed')">Plug in Speed</button>
-				  <button class="tablinks" onclick="openJob(event, 'NPS')">Plug in NPS</button>
-				  <button class="tablinks" onclick="openJob(event, 'Backup')">Plug in Backup</button>
+					<button class="tablinks" onclick="openJob(event, 'SEO')">Plug in SEO</button>
+					<button class="tablinks" onclick="openJob(event, 'Speed')">Plug in Speed</button>
+					<button class="tablinks" onclick="openJob(event, 'NPS')">Plug in NPS</button>
+					<button class="tablinks" onclick="openJob(event, 'Backup')">Plug in Backup</button>
 				</div>
 
 				<div id="SEO" class="tabcontent mx-auto text-justify">
 					<h2 class="text-center my-5 display-4 h2-apps"><span class="plugin">PLUG IN</span> <span class="pluginseo">SEO</span></h2>
 
-				<!-- start of photobanner -->
-				<div class="apps-photobanner">    
-				    <div class="photobanner">
-				    	<img src="assets/images/pluginseo.png" class="img-fluid apps-image" alt="Plug in SEO" />
-				    	<img src="assets/images/seo1.png" class="img-fluid apps-image" alt="Plug in SEO" />
-				    	<img src="assets/images/seo2.png" class="img-fluid apps-image" alt="Plug in SEO" />
-				    	<img src="assets/images/seo3.png" class="img-fluid apps-image" alt="Plug in SEO" />
-				    	<img src="assets/images/seo4.png" class="img-fluid apps-image" alt="Plug in SEO" />
-				    	<img src="assets/images/seo5.png" class="img-fluid apps-image" alt="Plug in SEO" />
-				    	<img src="assets/images/seo6.png" class="img-fluid apps-image" alt="Plug in SEO" />
-				    	<img src="assets/images/seo7.png" class="img-fluid apps-image" alt="Plug in SEO" />
-				    	<img src="assets/images/seo8.png" class="img-fluid apps-image" alt="Plug in SEO" />
-				    	<img src="assets/images/seo9.png" class="img-fluid apps-image" alt="Plug in SEO" />
-				    </div>
-				</div>
-				<!-- end of photobanner -->				
+					<!-- start of photobanner -->
+					<div class="apps-photobanner">    
+					    <div class="photobanner">
+					    	<img src="assets/images/pluginseo.png" class="img-fluid apps-image" alt="Plug in SEO" />
+					    	<img src="assets/images/seo1.png" class="img-fluid apps-image" alt="Plug in SEO" />
+					    	<img src="assets/images/seo2.png" class="img-fluid apps-image" alt="Plug in SEO" />
+					    	<img src="assets/images/seo3.png" class="img-fluid apps-image" alt="Plug in SEO" />
+					    	<img src="assets/images/seo4.png" class="img-fluid apps-image" alt="Plug in SEO" />
+					    	<img src="assets/images/seo5.png" class="img-fluid apps-image" alt="Plug in SEO" />
+					    	<img src="assets/images/seo6.png" class="img-fluid apps-image" alt="Plug in SEO" />
+					    	<img src="assets/images/seo7.png" class="img-fluid apps-image" alt="Plug in SEO" />
+					    	<img src="assets/images/seo8.png" class="img-fluid apps-image" alt="Plug in SEO" />
+					    	<img src="assets/images/seo9.png" class="img-fluid apps-image" alt="Plug in SEO" />
+					    </div>
+					</div>
+					<!-- end of photobanner -->				
 
 					<p>Plug in SEO gives you a single verdict: does your store have issues with search engine performance that will be worthwhile to fix?</p>
 					<p>Once you install, the app checks your store, determines the verdict and displays details.</p>
@@ -147,22 +151,22 @@
 				<div id="Speed" class="tabcontent mx-auto text-justify">
 					<h2 class="text-center my-5 display-4 h2-apps"><span class="plugin">PLUG IN</span> <span class="pluginspeed">SPEED</span></h2>
 
-				<!-- start of photobanner -->
-				<div class="apps-photobanner">    
-				    <div class="photobanner">
-				    	<img src="assets/images/pluginspeed.png" class="img-fluid apps-image" alt="Plug in Speed"/>
-				    	<img src="assets/images/speed1.png" class="img-fluid apps-image" alt="Plug in Speed"/>
-				    	<img src="assets/images/speed2.png" class="img-fluid apps-image" alt="Plug in Speed"/>
-				    	<img src="assets/images/speed3.png" class="img-fluid apps-image" alt="Plug in Speed"/>
-				    	<img src="assets/images/speed4.png" class="img-fluid apps-image" alt="Plug in Speed"/>
-				    	<img src="assets/images/speed5.png" class="img-fluid apps-image" alt="Plug in Speed"/>
-				    	<img src="assets/images/speed6.png" class="img-fluid apps-image" alt="Plug in Speed"/>
-				    	<img src="assets/images/speed7.png" class="img-fluid apps-image" alt="Plug in Speed"/>
-				    	<img src="assets/images/speed8.png" class="img-fluid apps-image" alt="Plug in Speed"/>
-				    	<img src="assets/images/speed9.png" class="img-fluid apps-image" alt="Plug in Speed"/>
-				    </div>
-				</div>
-				<!-- end of photobanner -->			
+					<!-- start of photobanner -->
+					<div class="apps-photobanner">    
+					    <div class="photobanner">
+					    	<img src="assets/images/pluginspeed.png" class="img-fluid apps-image" alt="Plug in Speed"/>
+					    	<img src="assets/images/speed1.png" class="img-fluid apps-image" alt="Plug in Speed"/>
+					    	<img src="assets/images/speed2.png" class="img-fluid apps-image" alt="Plug in Speed"/>
+					    	<img src="assets/images/speed3.png" class="img-fluid apps-image" alt="Plug in Speed"/>
+					    	<img src="assets/images/speed4.png" class="img-fluid apps-image" alt="Plug in Speed"/>
+					    	<img src="assets/images/speed5.png" class="img-fluid apps-image" alt="Plug in Speed"/>
+					    	<img src="assets/images/speed6.png" class="img-fluid apps-image" alt="Plug in Speed"/>
+					    	<img src="assets/images/speed7.png" class="img-fluid apps-image" alt="Plug in Speed"/>
+					    	<img src="assets/images/speed8.png" class="img-fluid apps-image" alt="Plug in Speed"/>
+					    	<img src="assets/images/speed9.png" class="img-fluid apps-image" alt="Plug in Speed"/>
+					    </div>
+					</div>
+					<!-- end of photobanner -->			
 
 					<p>Studies have shown that for each extra second that it takes for a page to load conversion rates fall by 12%.</p>
 					<p>Conversely, a load time improvement from 4 to 2 seconds results in an average revenue increase of 3.2%.</p>
@@ -209,22 +213,22 @@
 				<div id="NPS" class="tabcontent mx-auto text-justify">
 					<h2 class="text-center my-5 display-4 h2-apps"><span class="plugin">PLUG IN</span> <span class="pluginnps">NPS</span></h2>
 
-				<!-- start of photobanner -->
-				<div class="apps-photobanner">    
-				    <div class="photobanner">
-				    	<img src="assets/images/pluginnps.png" class="img-fluid apps-image" alt="Plug in NPS" />
-				    	<img src="assets/images/nps1.png" class="img-fluid apps-image" alt="Plug in NPS" />
-				    	<img src="assets/images/nps2.png" class="img-fluid apps-image" alt="Plug in NPS" />
-				    	<img src="assets/images/nps3.png" class="img-fluid apps-image" alt="Plug in NPS" />
-				    	<img src="assets/images/nps4.png" class="img-fluid apps-image" alt="Plug in NPS" />
-				    	<img src="assets/images/nps5.png" class="img-fluid apps-image" alt="Plug in NPS" />
-				    	<img src="assets/images/nps6.png" class="img-fluid apps-image" alt="Plug in NPS" />
-				    	<img src="assets/images/nps7.png" class="img-fluid apps-image" alt="Plug in NPS" />
-				    	<img src="assets/images/nps8.png" class="img-fluid apps-image" alt="Plug in NPS" />
-				    	<img src="assets/images/nps9.png" class="img-fluid apps-image" alt="Plug in NPS" />
-				    </div>
-				</div>
-				<!-- end of photobanner -->			
+					<!-- start of photobanner -->
+					<div class="apps-photobanner">    
+					    <div class="photobanner">
+					    	<img src="assets/images/pluginnps.png" class="img-fluid apps-image" alt="Plug in NPS" />
+					    	<img src="assets/images/nps1.png" class="img-fluid apps-image" alt="Plug in NPS" />
+					    	<img src="assets/images/nps2.png" class="img-fluid apps-image" alt="Plug in NPS" />
+					    	<img src="assets/images/nps3.png" class="img-fluid apps-image" alt="Plug in NPS" />
+					    	<img src="assets/images/nps4.png" class="img-fluid apps-image" alt="Plug in NPS" />
+					    	<img src="assets/images/nps5.png" class="img-fluid apps-image" alt="Plug in NPS" />
+					    	<img src="assets/images/nps6.png" class="img-fluid apps-image" alt="Plug in NPS" />
+					    	<img src="assets/images/nps7.png" class="img-fluid apps-image" alt="Plug in NPS" />
+					    	<img src="assets/images/nps8.png" class="img-fluid apps-image" alt="Plug in NPS" />
+					    	<img src="assets/images/nps9.png" class="img-fluid apps-image" alt="Plug in NPS" />
+					    </div>
+					</div>
+					<!-- end of photobanner -->			
 
 					<p>Net Promoter Score (NPS) uses a standard survey format that asks customers to rate their experience with your shop by responding to the following question:</p>
 					<p>- How likely are you to recommend this shop to a friend or colleague?</p>
@@ -255,22 +259,22 @@
 				<div id="Backup" class="tabcontent mx-auto text-justify">
 				  	<h2 class="text-center my-5 display-4 h2-apps"><span class="plugin">PLUG IN</span> <span class="pluginbackup">BACKUP</span></h2>
 
-				<!-- start of photobanner -->
-				<div class="apps-photobanner">    
-				    <div class="photobanner">
-				    	<img src="assets/images/pluginbackup.png" class="img-fluid apps-image" alt="Plug in Backup" />
-				    	<img src="assets/images/bu1.png" class="img-fluid apps-image" alt="Plug in Backup" />
-				    	<img src="assets/images/bu2.png" class="img-fluid apps-image" alt="Plug in Backup" />
-				    	<img src="assets/images/bu3.png" class="img-fluid apps-image" alt="Plug in Backup" />
-				    	<img src="assets/images/bu4.png" class="img-fluid apps-image" alt="Plug in Backup" />
-				    	<img src="assets/images/bu5.png" class="img-fluid apps-image" alt="Plug in Backup" />
-				    	<img src="assets/images/bu6.png" class="img-fluid apps-image" alt="Plug in Backup" />
-				    	<img src="assets/images/bu7.png" class="img-fluid apps-image" alt="Plug in Backup" />
-				    	<img src="assets/images/bu8.png" class="img-fluid apps-image" alt="Plug in Backup" />
-				    	<img src="assets/images/bu9.png" class="img-fluid apps-image" alt="Plug in Backup" />
-				    </div>
-				</div>
-				<!-- end of photobanner -->			
+					<!-- start of photobanner -->
+					<div class="apps-photobanner">    
+					    <div class="photobanner">
+					    	<img src="assets/images/pluginbackup.png" class="img-fluid apps-image" alt="Plug in Backup" />
+					    	<img src="assets/images/bu1.png" class="img-fluid apps-image" alt="Plug in Backup" />
+					    	<img src="assets/images/bu2.png" class="img-fluid apps-image" alt="Plug in Backup" />
+					    	<img src="assets/images/bu3.png" class="img-fluid apps-image" alt="Plug in Backup" />
+					    	<img src="assets/images/bu4.png" class="img-fluid apps-image" alt="Plug in Backup" />
+					    	<img src="assets/images/bu5.png" class="img-fluid apps-image" alt="Plug in Backup" />
+					    	<img src="assets/images/bu6.png" class="img-fluid apps-image" alt="Plug in Backup" />
+					    	<img src="assets/images/bu7.png" class="img-fluid apps-image" alt="Plug in Backup" />
+					    	<img src="assets/images/bu8.png" class="img-fluid apps-image" alt="Plug in Backup" />
+					    	<img src="assets/images/bu9.png" class="img-fluid apps-image" alt="Plug in Backup" />
+					    </div>
+					</div>
+					<!-- end of photobanner -->			
 
 			        <p>Plug in Backup will automatically backup your shop’s published theme every hour.</p>
 			        <p>You can rest assured that any changes to your theme will be saved and any problems that arise can easily be undone.</p>
@@ -291,109 +295,84 @@
 		</div>
     </div>
 
-		<!-- start of footer -->
-		<footer class="page-footer font-small cyan darken-3">
-		    <div class="container">
-		      <div class="row">
-		        <div class="col-md-12 pt-2">
-		          <div class="mb-2 flex-center">
-
-		            <!-- Facebook -->
-		            <a class="fb-ic" href="https://facebook.com/" target="_blank">
-		              <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-		            </a>
-		            <!-- Twitter -->
-		            <a class="tw-ic" href="https://twitter.com/" target="_blank">
-		              <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-		            </a>
-		            <!-- Google +-->
-		            <a class="gplus-ic" href="https://plus.google.com/" target="_blank">
-		              <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-		            </a>
-		            <!--Linkedin -->
-		            <a class="li-ic" href="https://www.linkedin.com/" target="_blank">
-		              <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-		            </a>
-		            <!--Instagram-->
-		            <a class="ins-ic" href="https://www.instagram.com/" target="_blank">
-		              <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-		            </a>
-		            <!--Pinterest-->
-		            <a class="pin-ic" href="https://www.pinterest.com/" target="_blank">
-		              <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
-		            </a>
-		          </div>
-		        </div>
-		      </div>
-		    </div>
-
-			<!-- start of disclimer modal -->
-			<button type="button" class="btn btn-primary dislaimer-btn" data-toggle="modal" data-target="#exampleModal">
-			  DISCLAIMER
-			</button>
-			<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			  <div class="modal-dialog" role="document">
-			    <div class="modal-content">
-			      <div class="modal-header">
-			        <small class="modal-title" id="exampleModalLabel">DISCLAIMER</small>
-			        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			          <span aria-hidden="true">&times;</span>
-			        </button>
-			      </div>
-			      <div class="modal-body text-justify">
-			      	<p>If you require any more information or have any questions about our this website's disclaimer, please feel free to contact me by email at <a href="mailto:aiza@pluginseo.com?Subject=Hello%20" target="_top">aiza@pluginseo.com</a></p>
-			      	<p>All the information on this website are grabbed from the original website of Plug in Useful. The permission of the founder of was asked before this website was built.</p>
-			      	<p>I do not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website is strictly at your own risk. I will not be liable for any losses and/or damages in connection with the use of this website.</p>
-			      	<p>From this website, you can visit other websites by following hyperlinks to such external sites. While I strive to provide only quality links to useful and ethical websites, I have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before I have the opportunity to remove a link which may have gone "bad."</p>
-			      	<p>Please be also aware that when you leave this website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.</p>
-			      	<p><strong>Consent</strong></p>
-			      	<p>By using this website, you hereby consent to my disclaimer and agree to its terms.</p>
-			      	<p><strong>Update</strong></p>
-			      	<p>Should I update, amend or make any changes to this document, those changes will be prominently posted here.</p>
-			      	<p><strong>Sources:</strong></p>
-			      	<ul class="ml-5">
-			      		<li><a href="https://www.pluginuseful.com/">Plug in Useful</a></li>
-			      		<li><a href="https://www.slideshare.net/selectee4/vision-and-mission-of-companies">Slideshare</a></li>
-			      	</ul>			        
-			      </div>
-			      <div class="modal-footer">
-			        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			      </div>
-			    </div>
-			  </div>
+	<!-- start of footer -->
+	<footer class="page-footer font-small cyan darken-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 pt-2">
+					<div class="mb-2 flex-center">
+						<!-- Facebook -->
+						<a class="fb-ic" href="https://facebook.com/" target="_blank">
+						<i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+						</a>
+						<!-- Twitter -->
+						<a class="tw-ic" href="https://twitter.com/" target="_blank">
+						<i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+						</a>
+						<!-- Google +-->
+						<a class="gplus-ic" href="https://plus.google.com/" target="_blank">
+						<i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+						</a>
+						<!--Linkedin -->
+						<a class="li-ic" href="https://www.linkedin.com/" target="_blank">
+						<i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+						</a>
+						<!--Instagram-->
+						<a class="ins-ic" href="https://www.instagram.com/" target="_blank">
+						<i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+						</a>
+						<!--Pinterest-->
+						<a class="pin-ic" href="https://www.pinterest.com/" target="_blank">
+						<i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+						</a>
+					</div>
+				</div>
 			</div>
-			<!-- end of disclaimer modal -->
+		</div>
 
-		    <!-- start of copyright -->
-		    <div class="footer-copyright text-center py-3">© 2018 Copyright:
-		      <a href="https://www.pluginuseful.com/" target="_blank">Plug in Useful</a>
-		    </div>
-		    <!-- end of copyright -->
+		<!-- start of disclimer modal -->
+		<button type="button" class="btn btn-primary dislaimer-btn" data-toggle="modal" data-target="#exampleModal">DISCLAIMER</button>
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<small class="modal-title" id="exampleModalLabel">DISCLAIMER</small>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body text-justify">
+						<p>If you require any more information or have any questions about our this website's disclaimer, please feel free to contact me by email at <a href="mailto:aiza@pluginseo.com?Subject=Hello%20" target="_top">aiza@pluginseo.com</a></p>
+						<p>All the information on this website are grabbed from the original website of Plug in Useful. The permission of the founder of was asked before this website was built.</p>
+						<p>I do not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website is strictly at your own risk. I will not be liable for any losses and/or damages in connection with the use of this website.</p>
+						<p>From this website, you can visit other websites by following hyperlinks to such external sites. While I strive to provide only quality links to useful and ethical websites, I have no control over the content and nature of these sites. These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before I have the opportunity to remove a link which may have gone "bad."</p>
+						<p>Please be also aware that when you leave this website, other sites may have different privacy policies and terms which are beyond our control. Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.</p>
+						<p><strong>Consent</strong></p>
+						<p>By using this website, you hereby consent to my disclaimer and agree to its terms.</p>
+						<p><strong>Update</strong></p>
+						<p>Should I update, amend or make any changes to this document, those changes will be prominently posted here.</p>
+						<p><strong>Sources:</strong></p>
+						<ul class="ml-5">
+							<li><a href="https://www.pluginuseful.com/">Plug in Useful</a></li>
+							<li><a href="https://www.slideshare.net/selectee4/vision-and-mission-of-companies">Slideshare</a></li>
+						</ul>			        
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- end of disclaimer modal -->
 
-	  </footer>
-	  <!-- end of footer -->
-	</div>
-
-
-
-<!-- job description tab -->
-<script>
-function openJob(evt, jobName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(jobName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-</script>
-<!-- end of job description tab -->
-
+	    <!-- start of copyright -->
+	    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+	    	<a href="https://www.pluginuseful.com/" target="_blank">Plug in Useful</a>
+	    </div>
+	    <!-- end of copyright -->
+	    
+	</footer>
+	<!-- end of footer -->
 
  </body>
  </html>
